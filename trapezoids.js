@@ -7,14 +7,14 @@ const settings = {
 };
 
 const sketch = () => {
-  const COUNT = 5;
+  const COUNT = 6;
   const MARGIN = 200;
 
   function drawTrapezoid(ctx, x1, y1,x2,y2, fillColor, bottom) {
     ctx.beginPath();
     ctx.fillStyle = fillColor;
     ctx.strokeStyle = "white";
-    ctx.lineWidth = 20;
+    ctx.lineWidth = 40;
     ctx.moveTo(x1,y1);
     ctx.lineTo(x2,y2);
     ctx.lineTo(x2,bottom);
